@@ -1,0 +1,80 @@
+/*
+    ##################################################
+        Author: jdkitson
+        Date: November 16, 2019
+        Purpose: CIS2288 Topic 7 Class 1 - Stylesheet
+    ##################################################
+    */
+#container {
+    width: 1000px;
+    margin: 50px auto;
+    background-color: lightsteelblue;
+    color: darkblue;
+    padding: 50px;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+.navbar-inverse {
+    background-color: darkblue;
+    border-color: #080808;
+}
+/*Style fieldset*/
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+    box-shadow:  0px 0px 0px 0px #000;
+}
+
+legend.scheduler-border {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    width:auto;
+    padding:0 10px;
+    border-bottom:none;
+}
+
+h2.results{
+    color: white;
+}
+a{
+    color: darkblue;
+}
+a{
+    color: darkblue;
+}
+
+.newBook-form {
+    width: 600px;
+    margin: 50px auto;
+}
+
+.newBook-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.newBook-form h2 {
+    margin: 0 0 15px;
+}
+
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+
+.btn {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+}
+a.results {
+    color: white;
+}

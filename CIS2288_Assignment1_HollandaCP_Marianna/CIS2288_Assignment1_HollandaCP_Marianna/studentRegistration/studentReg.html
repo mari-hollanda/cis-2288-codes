@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--
+##################################################
+Author: Marianna Hollanda Campos Pedroso
+Date: September 15th, 2021
+Purpose: Assignment 1 - Student Registration
+Dependencies: None
+##################################################
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration</title>
+</head>
+<body>
+<form action="processStudentReg.php" method="post">
+    <table style="border: 0px; margin-left: auto; margin-right: auto">
+        <tr style="background: #cccccc;">
+            <th colspan="2">Holland College Student Registration</th>
+        </tr>
+        <tr>
+            <td>First Name:</td>
+            <td><input type="text" name="firstName" size="50"
+                       maxlength="50"/></td>
+        </tr>
+        <tr>
+            <td>Last Name:</td>
+            <td><input type="text" name="lastName" size="50"
+                       maxlength="50"/></td>
+        </tr>
+        <tr>
+            <td>Address Street:</td>
+            <td><input type="text" name="addrStreet" size="50"
+                       maxlength="50"/></td>
+        </tr>
+        <tr>
+            <td>Address Street Number:</td>
+            <td><input type="text" name="addrNumber" size="25"
+                       maxlength="25"/></td>
+        </tr>
+        <tr>
+            <td>Address Postal Code:</td>
+            <td><input type="text" name="addrPCode" size="25"
+                       maxlength="25"/></td>
+        </tr>
+        <tr>
+            <td>Address City:</td>
+            <td><input type="text" name="addrCity" size="25"
+                       maxlength="25"/></td>
+        </tr>
+        <tr>
+            <td>Address Province:</td>
+            <td><input type="text" name="addrProvince" size="25"
+                       maxlength="25"/></td>
+        </tr>
+        <tr>
+            <td>Phone Number:</td>
+            <td><input type="text" name="phoneNum" size="25"
+                       maxlength="25"/></td>
+        </tr>
+        <tr>
+            <td>Number of Semesters:</td>
+            <td><select name="numSemesters" id="numSemesters">
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Number of Courses per Semester:</td>
+            <td><select name="numCourses" id="numCourses">
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Health Care Deduction:</td>
+            <td><select name="healthDeduction" id="healthDeduction">
+                <option value="600">Yes</option>
+                <option value="0">No</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Scholarship Amount:</td>
+            <td> <input type="number" id="scholarship" name="scholarship" value="0" style="width: 90px">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;"><input type="submit" value="Submit"/></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
